@@ -10,6 +10,6 @@ average_grades = [(sum(grades[0]) / len(grades[0])),(sum(grades[1]) / len(grades
 grades[2])),(sum(grades[3]) / len(grades[3])),(sum(grades[4]) / len(grades[4]))]
 print(average_grades)
 
-# Объеденяем списки в словарь
+# Объединяем списки в словарь
 students_dict = dict(zip(students_list, average_grades))
 print(students_dict)
