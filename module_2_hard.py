@@ -6,3 +6,7 @@ def find_password(n): # n - число, отображаемое в первой
                 result = str(i) + str(j) # сохраняет пароль
                 return result
     return "Пароль не найден"
+
+n = int(input('Введите число: '))
+password = find_password(n)
+print(f'Пароль для числа {n}: {password}')
