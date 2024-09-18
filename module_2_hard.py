@@ -2,7 +2,7 @@ def generate_password(n):
     result = "" # Для хранения пароля
     for i in range(1, n): # Цикл перебирает числа от 1 до n-1
         for j in range(i+1, n+1): # Цикл перебирает числа от i+1 до n
-            if (i + j) == n: # Проверка, кратно ли n сумме i и j
+            if n % (i + j) == 0: # Находим делители числа
                 result += str(i) + str(j) # Добавление пары чисел в строку result
     return result
 
