@@ -1,6 +1,7 @@
 def get_multiplied_digits(number):
 
     str_number = str(number)
+    str_number = str_number.rstrip('0')
     first = int(str_number[0])
     # проверка длины строки
     if len(str_number) > 1:
@@ -8,5 +9,5 @@ def get_multiplied_digits(number):
     else:
         return first
 
-result = get_multiplied_digits(40203)
+result = get_multiplied_digits(420)
 print(result)
