@@ -5,4 +5,4 @@ def test_function():
 
 # Вызов inner_function вне test_function выдаст ошибку NameError: name 'inner_function' is not defined
 
-test_function() # Вызов test_function, который, вызовет inner_function
+test_function() # Вызов test_function, который вызовет inner_function
