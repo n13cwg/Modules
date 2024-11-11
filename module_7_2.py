@@ -8,7 +8,7 @@ def custom_write(file_name, strings):
         # переменную position
         file.write(f"{string}\n") # записываем строку в файл
         strings_positions[(i, position)] = string # сохраняем в словарь strings_positions кортеж (i, position) - 
-        # номер строки и позиция) как ключ, а саму строку `string` как значение.
+        # номер строки и позиция) как ключ, а саму строку string как значение.
     return strings_positions # возвращаем словарь
 
 
